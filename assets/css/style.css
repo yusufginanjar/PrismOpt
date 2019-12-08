@@ -23,9 +23,9 @@ p{
 
 /* section-1 */
 .logo img{
+	margin-left: auto;
 	position: relative;
-	right: 4vw;
-	width: 120%;
+	width: 100%;
 }
 
 
@@ -194,13 +194,21 @@ footer{
 
 @media screen and (max-device-width:576px)  { 
 	p{
-		font-size: 18px;
+		font-size: 23px;
+	}
+
+	.container{
+		max-width: 95vw;
 	}
 }
 
 @media (min-device-width: 576px) { 
 	p{
-		font-size: 13px;
+		font-size: 18px;
+	}
+
+	.container{
+		max-width: 90vw;
 	}
 }
 
@@ -212,6 +220,13 @@ footer{
 		color: #484848;
 		text-align: justify;
 	}
+
+	.logo img{
+		position: relative;
+		right: 4vw;
+		width: 120%;
+	}
+	
 
 
 	.phone-number{
